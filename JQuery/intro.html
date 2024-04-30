@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+</head>
+<body>
+    
+
+    <h1 id="h" class="head">Heading</h1>
+
+
+
+    <button id="btn">Hide</button>
+    <button id="btn1">Show</button>
+    <button id="btn2">Show/Hide</button>
+    <button id="btn3">Fade Out</button>
+    <button id="btn4">Fade In</button>
+    <button id="btn5">Fade Toggle</button>
+    <button id="btn6">Slide Up</button>
+    <button id="btn7">Slide Down</button>
+    <button id="btn8">Slide Toggle</button>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+
+    <script>
+
+
+        $(document).ready(()=>{
+          
+        $('#btn').click(()=>{
+            $('#h').hide(2000);
+        })
+
+        $('#btn1').click(()=>{
+            $('#h').show(1000);
+        })
+        $('#btn2').click(()=>{
+            $('#h').toggle(1000);
+        })
+        $('#btn3').click(()=>{
+            $('#h').fadeOut(1000);
+        })
+        $('#btn4').click(()=>{
+            $('#h').fadeIn(1000);
+        })
+        $('#btn5').click(()=>{
+            $('#h').fadeToggle(1000);
+        })
+        $('#btn6').click(()=>{
+            $('#h').slideUp(1000);
+        })
+
+        $('#btn7').click(()=>{
+            $('#h').slideDown(1000);
+        })
+        $('#btn8').click(()=>{
+            $('#h').slideToggle(1000);
+        })
+
+
+
+        })
+
+
+    </script>
+
+
+
+
+
+
+</body>
+</html>

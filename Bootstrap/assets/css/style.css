@@ -1,0 +1,12 @@
+.nav-p{
+    background-color: thistle !important;
+}
+.serach-btn-p{
+    border-radius: 40px;
+    background-color: rgb(166, 73, 216);
+    border: none;
+    color: #fff;
+}
+.serach-btn-p:hover{
+    background-color: rgb(130, 71, 162);
+}
